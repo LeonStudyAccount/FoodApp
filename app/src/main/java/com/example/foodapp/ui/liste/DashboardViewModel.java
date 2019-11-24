@@ -1,4 +1,4 @@
-package com.example.foodapp.ui.dashboard;
+package com.example.foodapp.ui.liste;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -1,4 +1,4 @@
-package com.example.foodapp.ui.settings;
+package com.example.foodapp.ui.einstellungen;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
