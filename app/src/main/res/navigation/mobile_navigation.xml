@@ -8,25 +8,25 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.foodapp.ui.karte.HomeFragment"
-        android:label="@string/title_home"
+        android:label="Karte"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.foodapp.ui.liste.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="Liste"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.foodapp.ui.kommentare.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="Kommentare"
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
         android:id="@+id/navigation_settings"
         android:name="com.example.foodapp.ui.einstellungen.SettingsFragment"
-        android:label="Settings"
+        android:label="Einstellungen"
         tools:layout="@layout/fragment_home" />
 
 
