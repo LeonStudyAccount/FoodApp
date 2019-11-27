@@ -18,6 +18,12 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
+        android:id="@+id/navigation_filter"
+        android:name="com.example.foodapp.ui.filter.FilterFragment"
+        android:label="Filter"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.foodapp.ui.kommentare.NotificationsFragment"
         android:label="Kommentare"

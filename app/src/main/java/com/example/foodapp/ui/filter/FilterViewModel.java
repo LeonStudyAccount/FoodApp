@@ -1,16 +1,16 @@
-package com.example.foodapp.ui.liste;
+package com.example.foodapp.ui.filter;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class FilterViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public FilterViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is list fragment");
+        mText.setValue("This is filter fragment");
     }
 
     public LiveData<String> getText() {
