@@ -1,4 +1,4 @@
-package com.example.foodapp.ui.einstellungen;
+package com.example.foodapp.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,20 +16,23 @@ import com.example.foodapp.R;
 
 public class SettingsFragment extends Fragment {
 
-    private SettingsViewModel settingsViewModel;
+
+    View root;
+
+    TextView textView;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        settingsViewModel =
-                ViewModelProviders.of(this).get(SettingsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_settings, container, false);
-        final TextView textView = root.findViewById(R.id.text_settings);
-        settingsViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
+        //Folgende Reihenfolge beim Aufrufen: onCreate() -> onCreateView() -> onStart()
+        //Besonderheit: alle Views (TextView, Button, Image, Map, ...) müssen über root.findViewByID() definiert werden!!!
+
+        root = inflater.inflate(R.layout.fragment_settings, container, false);
+        textView = root.findViewById(R.id.text_settings);
+        textView.setText("Settings Fragment");
+
         return root;
     }
+
+
 }

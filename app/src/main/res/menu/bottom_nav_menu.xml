@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_pin_drop_black_24dp"
         android:title="Karte" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
         android:title="Liste" />
 
     <item
         android:id="@+id/navigation_filter"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_filter_list_black_24dp"
         android:title="Filter" />
 
     <item
@@ -23,7 +23,7 @@
 
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_settings_black_24dp"
         android:title="Einstellungen" />
 
 </menu>
